@@ -41,7 +41,7 @@ if(isset($_POST['submit'])){
  $message = '<h1><strong>Thank you for you application</strong><br>
     <br>Here is a copy of the data submitted</h1>';
 
-$message .= '<img src="//extramuros.olivierduport.fr/logo.png" alt="Extra Muros" />';
+$message .= '<img src="http://extramuros.olivierduport.fr/logo.png" alt="Extra Muros" />';
 
 $message .= '<style>
     p {

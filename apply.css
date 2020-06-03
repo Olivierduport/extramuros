@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #FF8345;
+}
+a:hover {
+    color: red;
+}
+
+body { 
+ margin-top: 0px
+ margin-bottom: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+  }
+
+td {
+ vertical-align: top;
+}
+
+.navbar {
+  line-height: 50px;
+  height: 20px;
+  width: 297px;
+  position:fixed;
+  top: 0%;
+  left: 45%;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  text-align: center;
+
+}
+
+.navbaritem {
+  height: 20px;
+  width: 50px;
+  color: #FF8345;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+
+
+.coverpic {
+
+  left:0%;
+  top: 0%;
+  width: 100%;
+}
+
+
+
+.application-form {
+
+  color: #FF8345;
+  font-family: "Editorial New";
+  font-size: 110px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 132px;
+  text-align: center;
+  position: absolute;
+  left: 316px;
+  top: 247px;
+}
+.city-year {
+  height: 132px;
+  width: 601px;
+  color: #FF8345;
+  font-family: "Founders Grotesk";
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: 132px;
+  position: absolute;
+  left: 50px;
+  top: 375px;
+}
+.subtitles {
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 48px;
+  width: 70%;
+  padding-left: 20%;
+}
+.ptext {
+  color: #FF8345;
+  font-family: "Founders Grotesk";
+  font-size: 18.5px;
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 70%;
+  padding-left:20%;
+
+}
+.formtitles {
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 100%;
+  padding-left: 15%;
+}
+
+.worktitle {
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 100%;
+  padding-left: 7.5%;
+
+}
+.cells {
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-left: 15%;
+}
+.cells input {
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 20px;
+  width: 75%;
+}
+.bigcells {
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-left:7.5%;
+  padding-right: 9%;
+}
+.bigcells input {
+  width:100%;
+  height: 170px;
+  padding-top: 0px;
+}
+
+.longcells {
+  padding-left: 7.5%;
+  padding-right: 9%;
+}
+
+.longcells input {
+  width:100%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.submitbutton {
+	padding-left: 45%;
+}
+
+input[type=submit] {
+
+  border: 1.6px 
+  solid #FF8345;
+  width: 144px;
+  height: 55px;
+  border-radius: 50%;
+  color: #FF8345;
+  font-family: "Editorial New";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+input[type="submit"]:hover {
+	border: 1.6px 
+  	solid red;
+	color: red;
+
+}
+
+td[rowspan] {
+  vertical-align: top;
+  text-align: left;
+}
+
+

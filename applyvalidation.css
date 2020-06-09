@@ -1,0 +1,71 @@
+a.class1 {
+  font-size: 20px;
+  font-family: "Founders Grotesk";
+  color: #FF0000;
+}
+a.class1:link, a.class1:visited {
+  font-size: 20px;
+  font-family: "Founders Grotesk";
+  color: #FF0000;
+}
+a.class1:hover {
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #FF0000;
+}
+
+.navbar {
+  line-height: 50px;
+  height: 100px;
+  width: 325px;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 35%;
+  padding-right: 30%;
+}
+
+.navbaritem {
+  height: 20px;
+  width: 100px;
+  color: #FF0000;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.introtext {
+  height: 150px;
+  width: 606px;
+  font-family: "Editorial New";
+  font-size: 31px;
+  letter-spacing: 0;
+  line-height: 39px;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+}
+
+.covpic {
+    margin: 0 auto;
+    padding: 50px;
+    width: 500px;
+}
+
+
+.backlink {
+  height: 20px;
+  width: 150px;
+  color: #FF0000;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 0 auto;
+  padding: 50px;
+}

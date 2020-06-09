@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+}
+
+body { 
+ margin-top: 0px
+ margin-bottom: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+}
+
+a.class1 {
+    text-decoration: none;
+}
+a.class1:link, a.class1:visited {
+  color: #E5EBE7;
+}
+a.class1:hover {
+    color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #E5EBE7;
+}
+
+a.class2 {
+   color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+a.class2:link, a.class2:visited {
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+a.class2:hover {
+    color: #15402A;
+}
+
+.navbar {
+  line-height: 50px;
+  height: 20px;
+  width: 297px;
+  top: 0%;
+  left: 39%;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  text-align: center;
+}
+
+
+
+.navbaritem {
+  height: 20px;
+  width: 50px;
+  color: #E5EBE7;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.bannertop {
+  height: 152px;
+  width: 100%;
+  background-color: #14402A;
+  color: #E5EBE7;
+  font-family: "Founders Grotesk";
+  font-size: 200px;
+  vertical-align: top;
+}
+
+.bannerbot {
+  height: 152px;
+  width: 100%;
+  background-color: #14402A;
+  color: #E5EBE7;
+  font-family: "Founders Grotesk";
+  font-size: 200px;
+  text-align: right;
+}
+.coverpic {
+  max-height:505px;
+  max-width: 1000%;
+  margin-bottom: -4px;
+}
+
+.coverpic img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.introtext {
+  height: 300px;
+  width: 606px;
+  color: #15402A;
+  font-family: "Editorial New";
+  font-size: 31px;
+  letter-spacing: 0;
+  line-height: 39px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+}
+.subtitles {
+  height: 80px;
+  width: 213px;
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: 96px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.artistname {
+  height: 24px;
+  width: 150px;
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.artistcountry {
+  height: 16px;
+  width: 13px;
+  color: #000000;
+  font-family: "Founders Grotesk";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.blocktext {
+  height: 370px;
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top:5%;
+
+}
+
+.blockmenu {
+  height: 19px;
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 23px;
+  text-align: center;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top:5%;
+}
+
+.pic1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.titles {
+  height: 65px;
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: 100px;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.ellipse1 {
+  position: relative;
+  border: 1px 
+  solid #15402A;
+  width: 933px;
+  height: 503px;
+  border-radius: 50%;
+  color: #FF8345;
+  font-family: "Editorial New";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: transparent;
+  transform: rotate(-25deg);
+
+}
+
+.ellipse2 {
+  position: absolute;
+  border: 1px 
+  solid #15402A;
+  width: 933px;
+  height: 503px;
+  border-radius: 50%;
+  color: #FF8345;
+  font-family: "Editorial New";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: transparent;
+  top: 15%;
+  left: 15%;
+  margin: -10px 0px 0px -10px;
+  transform: rotate(0deg)
+}
+
+.container1 {
+
+  max-height: 751px;
+  max-width: 480px;
+}
+
+.container1 img {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  transform: rotate(25deg);
+  left: 1%;
+  top: -90%;
+}
+
+.container2 {
+
+  max-height: 418px;
+  max-width: 284px;
+}
+
+.container2 img {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  transform: rotate(25deg);
+  left: -20%;
+  top: 40%;
+}
+
+.container3 {
+
+  max-height: 368px;
+  max-width: 264px;
+}
+
+.container3 img {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  transform: rotate(25deg);
+  left: 3%;
+  top: 20%;
+}
+
+.container4 {
+
+  max-height: 631px;
+  max-width: 414px;
+}
+
+.container4 img {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  transform: rotate(25deg);
+  left: 65%;
+  top: 40%;
+}
+
+.releasephoto{
+
+  max-height: 480px;
+  max-width: 480px;
+}
+
+.releasephoto img {
+
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+
+.filmphoto{
+
+  max-height: 751px;
+  max-width: 480px;
+}
+
+.filmphoto img {
+
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.nextlocation {
+  padding-right: 10%;
+  text-align: right;
+color:#ffffff;
+  font-family: "Founders Grotesk";
+  font-size: 70px;
+  letter-spacing: 0;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+.nextarrow {
+  line-height: 30px;
+  text-align: right;
+  font-size:100px;
+color:#ffffff;
+  font-family: "Founders Grotesk";
+  padding-right: 7%;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+
+
+.nextcoordinates {
+  padding-right: 3%;
+  text-align: right;
+ color:#ffffff;
+  font-size: 100px;
+  font-family: "Founders Grotesk";
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+
+

@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+}
+
+body { 
+ margin-top: 0px
+ margin-bottom: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+}
+
+a.class1 {
+  font-size: 20px;
+  font-family: "Founders Grotesk";
+  color: red;
+}
+a.class1:link {
+  font-size: 20px;
+  font-family: "Founders Grotesk";
+  color: red;
+}
+a.class1:visited {
+font-size: 20px;
+  font-family: "Founders Grotesk";
+  color: red;
+}
+a.class1:hover {
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+
+a.class2 {
+  font-size: 20px;
+  font-family: "Founders Grotesk";
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+a.class2:link, a.class2:visited {
+  font-size: 20px;
+  font-family: "Founders Grotesk";
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+a.class2:hover {
+  color: #FF0000;
+  -webkit-text-stroke-width: 0px;
+}
+
+a.class3 {
+  height: 420px;
+  width: 100%;
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+  font-family: "Editorial New";
+  font-size: 160px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 76px;
+}
+a.class3:link, a.class3:visited {
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+a.class3:hover {
+  color: #FF0000;
+  -webkit-text-stroke-width: 0px;
+}
+
+.motto {
+  height: 264px;
+  width: 1009px;
+  color: #FF0000;
+  font-family: "Editorial New";
+  font-size: 110px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 132px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.navbar {
+  line-height: 50px;
+  height: 100px;
+  width: 325px;
+  position:fixed;
+  top: 0%;
+  left: 39%;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  text-align: center;
+}
+
+.navbaritem {
+  height: 20px;
+  width: 50px;
+  color: #FF0000;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.socials {
+  height: 20px;
+  color: #FF0000;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.currentpic {
+  height: 431px;
+  width: 764px;
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+.currentpic img {
+
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+
+.currentblock {
+  position: relative;
+  height: 431px;
+  width: 764px;
+  margin: 0 auto;
+}
+
+.currentblock img {
+  position: relative;
+    width:100%;
+    max-width:764px;
+    height: 100%;
+    max-height: 431px;
+}
+
+.pastblock {
+  max-height: 431px;
+  max-width: 764px;
+}
+
+.pastblock img {
+  position: absolute;
+    width:100%;
+    max-width:764px;
+    height: 100%;
+    max-height: 431px;
+  left: -110%;
+  top: 0%;
+}
+
+.futureblock {
+  max-height: 431px;
+  max-width: 764px;
+}
+
+.futureblock img {
+  position: absolute;
+    width:100%;
+    max-width:764px;
+    height: 100%;
+    max-height: 431px;
+  left: 110%;
+  top: 0%;
+}
+
+.pastbutton {
+  position: absolute;
+  top: 50%;
+  left: -7%;
+  height: 20px;
+  width: 36px;
+  color: #000000;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.futurebutton {
+  position: absolute;
+  top: 50%;
+  left: 102%;
+  height: 20px;
+  width: 36px;
+  color: #000000;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.currentyear {
+  position: absolute;
+  top: -21%;
+  left: 0%;
+  height: 120px;
+  width: 263px;
+  color: #FF0000;
+  font-family: "Founders Grotesk";
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: 144px;
+
+}
+
+.currentcity {
+  position: absolute;
+  top: -21%;
+  left: 44%;
+  height: 120px;
+  width: 431px;
+  color: #FF0000;
+  font-family: "Founders Grotesk";
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: 144px;
+  text-align: right;
+}
+
+.pastcity {
+  position: absolute;
+  top: -21%;
+  left: -66%;
+  height: 120px;
+  width: 431px;
+  color: #FF0000;
+  font-family: "Founders Grotesk";
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: 144px;
+  text-align: right;
+}
+
+.futureyear {
+  position: absolute;
+  top: -21%;
+  left: 83%;
+  height: 120px;
+  width: 431px;
+  color: #FF0000;
+  font-family: "Founders Grotesk";
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: 144px;
+  text-align: right;
+}
+
+
+
+
+
+.mainquote {
+  height: 420px;
+  width: 848px;
+  color: #FF0000;
+  font-family: "Editorial New";
+  font-size: 59px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 76px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.partnerslogos {
+	margin: 0 auto;
+  padding: 50px;
+}
+
+.ellipse1 {
+  position: relative;
+  border: 1px 
+  solid red;
+  width: 1100px;
+  height: 403px;
+  border-radius: 50%;
+  color: red;
+  font-family: "Editorial New";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: transparent;
+  transform: rotate(-25deg);
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.ellipse2 {
+  position: absolute;
+  border: 1px 
+  solid red;
+  width: 1100px;
+  height: 403px;
+  border-radius: 50%;
+  color: red;
+  font-family: "Editorial New";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: transparent;
+  top: 300%;
+  left: 0%;
+  padding:50px;
+  transform: rotate(-25deg)
+}
+
+.subscribetext {
+  position: absolute;
+  top: 330%;
+  left: 0%;
+  height: 420px;
+  width: 100%;
+  color: #FF0000;
+  font-family: "Editorial New";
+  font-size: 85px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 76px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.subscribetext:hover {
+ color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+
+
+.NLbutton {
+  background-color: transparent;
+  box-sizing: border-box;
+  height: 20px;
+  width: 50px;
+  border: 1px solid #FF0000;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+#newsletter-container {
+  background-color: transparent;
+  box-sizing: border-box;
+  height: 20px;
+  width: 300px;
+  border: 1px solid #FF0000;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.newslettertext {
+  font-size: 40px;
+  width: 300px;
+  font-family: "Founders Grotesk";
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+
+.newslettertext:hover {
+  color: red;
+  
+}
+
+.mailtext {
+  position: absolute;
+  height: 72px;
+  width: 145px;
+  color: #15402A;
+  font-family: "Editorial New";
+  font-size: 61px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 78px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 2%;
+  margin-left: 15%;
+  transform: rotate(25deg);
+
+}
+
+.newsletterblock{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+
+.newslettertext {
+  
+  font-size: 40px;
+  width: 300px;
+  font-family: "Founders Grotesk";
+ color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+.newslettertext:hover {
+  color: #15402A;
+  
+}
+
+#newsletter-container {
+ 
+}
+
+#subscribe-newsletter {
+ 
+}
+.mailtext {
+  position: absolute;
+  height: 72px;
+  width: 145px;
+  color: #15402A;
+  font-family: "Editorial New";
+  font-size: 61px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 78px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 0%;
+  margin-left: 15%;
+
+}
+
+#mc_embed_signup  {
+  font-size: 40px;
+  font-family: "Founders Grotesk";
+ color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+#mc-embedded-subscribe-form {
+   font-size: 40px;
+  font-family: "Founders Grotesk";
+ color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+#mce-EMAIL {
+  font-size: 40px;
+  font-family: "Founders Grotesk";
+ color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+
+

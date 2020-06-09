@@ -1,18 +1,19 @@
 <!DOCTYPE html>
   <html>
-    <header>
+    <head>
       <link rel="stylesheet" type="text/css" href="http://extramuros.olivierduport.fr/CSS/apply.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <div class="coverpic">
         <img src="http://extramuros.olivierduport.fr/cover1">
       </div>
-    </header>
+    </head>
     <main>
       <div class="navbar">
         <div class="navbaritem">
            <table style="width:100%">
             <tr>
           <td><a href="http://extramuros.olivierduport.fr/">Residencies</a></td>
-          <td><a href="http://extramuros.olivierduport.fr/apply">Apply</a></td>
+          <td><a href="http://extramuros.olivierduport.fr/kenya">Current</a></td>
           <td><a href="http://extramuros.olivierduport.fr/about">About</a></td>
           <td><a href="https://bandcamp.com/fleeproject" target="_blank">Shop</a></td>
         </tr>
@@ -30,7 +31,7 @@
     <body>
       
 
-<form action="http://extramuros.olivierduport.fr/applyvalidation" target="_blank" method="post" enctype="multipart/form-data" class="applyForm" onsubmit="returnvalidation()">
+<form action="http://extramuros.olivierduport.fr/forms.php" target="_blank" method="post" enctype="multipart/form-data" class="applyForm" onsubmit="returnvalidation()">
 
 
 
@@ -146,7 +147,7 @@
         <tr>
             <td style="width:40%"><div class="ptext">Previous participants and ALUMNI to Extra</div> </td>
             <td><div class="cells"><input type="email" id="email" name="email" placeholder="Email" required></div></td>
-            <td><div class="cells"><input type="url" id="website" name="website" placeholder="Website" required></div></td>
+            <td><div class="cells"><input type="text" id="website" name="website" placeholder="Website" required></div></td>
 
         </tr>
         <tr>
@@ -182,12 +183,12 @@
         </tr>
         <tr>
           <td style="width:40%"><div class="ptext"></div></td>
-          <td colspan="2"><div class="longcells"><input type="url" id="link1" name="link1" placeholder="Link to previous work (audio or video recordings, scores, installations, etc.) " required></div></td>
+          <td colspan="2"><div class="longcells"><input type="text" id="link1" name="link1" placeholder="Link to previous work (audio or video recordings, scores, installations, etc.) " required></div></td>
           <td style="width:0%"></td>
         </tr>
          <tr>
          <td style="width:40%"><div class="ptext"></div></td>
-         <td colspan="2"><div class="longcells"><input type="url" id="link2" name="link2" placeholder="Link to previous work (audio or video recordings, scores, installations, etc.) 2" required></div></td>
+         <td colspan="2"><div class="longcells"><input type="text" id="link2" name="link2" placeholder="Link to previous work (audio or video recordings, scores, installations, etc.) 2" required></div></td>
          <td style="width:0%"></td>
         </tr>
          </tbody>
@@ -200,13 +201,12 @@
   <div class="submitbutton"><input type="submit" name="submit" value="submit" /><br></div>
   <br>
 </form>
-
-
 <script>
   function returnvalidation() {
 window.open('http://extramuros.olivierduport.fr/applyvalidation',);
 }
 </script>
+
     </main>
     
 

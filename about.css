@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+}
+
+body { 
+ margin-top: 0px
+ margin-bottom: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+}
+
+a {
+font-size: 20px;
+  font-family: "Founders Grotesk";
+    color: #15402A;
+}
+a:link, a:visited {
+  font-size: 20px;
+  font-family: "Founders Grotesk";
+    color: #15402A;
+}
+a:hover {
+    color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+a.class2 {
+font-size: 160px;
+  font-family: "Founders Grotesk";
+    color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+a.class2:link, a.class2:visited {
+  font-size: 250px;
+  font-family: "Founders Grotesk";
+    color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+a.class2:hover {
+    color: #15402A;
+}
+
+#page {
+   border-collapse: collapse;
+}
+
+.navbar {
+  line-height: 50px;
+  height: 100px;
+  width: 297px;
+  position:fixed;
+  top: 0%;
+  left: 39%;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  text-align: center;
+}
+
+.navbaritem {
+  height: 20px;
+  width: 50px;
+  color: #FF8345;
+  font-family: "Founders Grotesk";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.motto {
+  height: 265px;
+  width: 900px;
+  max-width: 100%;
+  color: #15402A;
+  font-family: "Editorial New";
+  font-size: 110px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 132px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*.motto:hover {
+  color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+*/
+
+.pic1 {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+
+
+
+
+
+
+
+.titles {
+  height: 65px;
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: 100px;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.blocktext {
+  height: 370px;
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top:5%;
+
+}
+
+.blockmenu {
+  height: 19px;
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 23px;
+  text-align: center;
+  padding-left: 13%;
+  padding-right: 13%;
+  padding-top:5%;
+}
+
+
+
+.ellipse1 {
+  position: relative;
+  border: 1px 
+  solid #15402A;
+  width: 933px;
+  height: 503px;
+  border-radius: 50%;
+  color: #FF8345;
+  font-family: "Editorial New";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: transparent;
+  transform: rotate(-25deg);
+
+}
+
+.ellipse2 {
+  position: absolute;
+  border: 1px 
+  solid #15402A;
+  width: 933px;
+  height: 503px;
+  border-radius: 50%;
+  color: #FF8345;
+  font-family: "Editorial New";
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: transparent;
+  top: 15%;
+  left: 15%;
+  margin: -10px 0px 0px -10px;
+  transform: rotate(0deg)
+}
+
+.applytext {
+  position: absolute;
+  height: 72px;
+  width: 145px;
+  color: #15402A;
+  font-family: "Editorial New";
+  font-size: 61px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 78px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  transform: rotate(25deg);
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+
+.NLbutton {
+  background-color: transparent;
+  box-sizing: border-box;
+  height: 20px;
+  width: 50px;
+  border: 1px solid #15402A;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+#newsletter-container {
+  background-color: transparent;
+  box-sizing: border-box;
+  height: 20px;
+  width: 300px;
+  border: 1px solid #15402A;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.newslettertext {
+  font-size: 40px;
+  width: 300px;
+  font-family: "Founders Grotesk";
+ color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #15402A;
+}
+
+.newslettertext:hover {
+  color: #15402A;
+  
+}
+
+
+
+
+
+
+

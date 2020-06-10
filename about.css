@@ -2,58 +2,37 @@
   margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #FF8345;
+}
+a:hover {
+    color:#ffffff;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #FF8345;
+}
+
 body { 
  margin-top: 0px
  margin-bottom: 0px;
  margin-left: 0px;
  margin-right: 0px;
-}
+  }
 
-a {
-font-size: 20px;
-  font-family: "Founders Grotesk";
-    color: #15402A;
-}
-a:link, a:visited {
-  font-size: 20px;
-  font-family: "Founders Grotesk";
-    color: #15402A;
-}
-a:hover {
-    color:#ffffff;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #15402A;
-}
-
-a.class2 {
-font-size: 160px;
-  font-family: "Founders Grotesk";
-    color:#ffffff;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #15402A;
-}
-a.class2:link, a.class2:visited {
-  font-size: 250px;
-  font-family: "Founders Grotesk";
-    color:#ffffff;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #15402A;
-}
-a.class2:hover {
-    color: #15402A;
-}
-
-#page {
-   border-collapse: collapse;
+td {
+ vertical-align: top;
 }
 
 .navbar {
   line-height: 50px;
-  height: 100px;
+  height: 20px;
   width: 297px;
   position:fixed;
   top: 0%;
-  left: 39%;
+  padding-left: 40%;
+  padding-right: 40%;
   overflow-y:scroll;
   overflow-x:hidden;
   text-align: center;
@@ -69,180 +48,160 @@ a.class2:hover {
   line-height: 24px;
 }
 
-.motto {
-  height: 265px;
-  width: 900px;
+
+
+.coverpic {
+
+  left:0%;
+  top: 0%;
+  width: 100%;
   max-width: 100%;
-  color: #15402A;
+}
+
+
+
+.application-form {
+
+  color: #FF8345;
   font-family: "Editorial New";
   font-size: 110px;
   font-weight: 300;
   letter-spacing: 0;
   line-height: 132px;
   text-align: center;
-  margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  position: absolute;
+  left: 316px;
+  top: 247px;
 }
-
-/*.motto:hover {
-  color:#ffffff;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #15402A;
+.city-year {
+  height: 132px;
+  width: 601px;
+  color: #FF8345;
+  font-family: "Founders Grotesk";
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: 132px;
+  position: absolute;
+  left: 50px;
+  top: 375px;
 }
-*/
-
-.pic1 {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-
-
-
-
-
-
-
-
-
-.titles {
-  height: 65px;
+.subtitles {
   color: #252525;
   font-family: "Founders Grotesk";
-  font-size: 80px;
+  font-size: 4vw;
   letter-spacing: 0;
-  line-height: 100px;
-  text-align: center;
-  padding-top: 45px;
+  line-height: 48px;
+  width: 70%;
+  padding-left: 20%;
 }
+.ptext {
+  color: #FF8345;
+  font-family: "Founders Grotesk";
+  font-size: 18.5px;
+  letter-spacing: 0;
+  line-height: 28px;
+  width: 70%;
+  padding-left:20%;
 
-.blocktext {
-  height: 370px;
+}
+.formtitles {
   color: #252525;
   font-family: "Founders Grotesk";
   font-size: 21px;
+  font-weight: 500;
   letter-spacing: 0;
   line-height: 28px;
-  text-align: center;
-  padding-left: 13%;
-  padding-right: 13%;
-  padding-top:5%;
-
+  width: 100%;
+  padding-left: 15%;
 }
 
-.blockmenu {
-  height: 19px;
+.worktitle {
   color: #252525;
   font-family: "Founders Grotesk";
-  font-size: 19px;
+  font-size: 21px;
+  font-weight: 500;
   letter-spacing: 0;
-  line-height: 23px;
-  text-align: center;
-  padding-left: 13%;
-  padding-right: 13%;
-  padding-top:5%;
-}
-
-
-
-.ellipse1 {
-  position: relative;
-  border: 1px 
-  solid #15402A;
-  width: 933px;
-  height: 503px;
-  border-radius: 50%;
-  color: #FF8345;
-  font-family: "Editorial New";
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 0;
-  text-align: center;
-  background-color: transparent;
-  transform: rotate(-25deg);
+  line-height: 28px;
+  width: 100%;
+  padding-left: 7.5%;
 
 }
-
-.ellipse2 {
-  position: absolute;
-  border: 1px 
-  solid #15402A;
-  width: 933px;
-  height: 503px;
-  border-radius: 50%;
-  color: #FF8345;
-  font-family: "Editorial New";
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 0;
-  text-align: center;
-  background-color: transparent;
-  top: 15%;
-  left: 15%;
-  margin: -10px 0px 0px -10px;
-  transform: rotate(0deg)
-}
-
-.applytext {
-  position: absolute;
-  height: 72px;
-  width: 145px;
-  color: #15402A;
-  font-family: "Editorial New";
-  font-size: 61px;
-  font-weight: 300;
-  letter-spacing: 0;
-  line-height: 78px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 50px;
-  transform: rotate(25deg);
-  margin-top: 10%;
-  margin-left: 15%;
-}
-
-
-.NLbutton {
-  background-color: transparent;
-  box-sizing: border-box;
-  height: 20px;
-  width: 50px;
-  border: 1px solid #15402A;
-  text-align: center;
-  margin: 0 auto;
-
-}
-
-#newsletter-container {
-  background-color: transparent;
-  box-sizing: border-box;
-  height: 20px;
-  width: 300px;
-  border: 1px solid #15402A;
-  text-align: center;
-  margin: 0 auto;
-
-}
-
-.newslettertext {
-  font-size: 40px;
-  width: 300px;
+.cells {
+  color: #252525;
   font-family: "Founders Grotesk";
- color:#ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-left: 15%;
+}
+.cells input {
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 20px;
+  width: 75%;
+}
+.bigcells {
+  color: #252525;
+  font-family: "Founders Grotesk";
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-left:7.5%;
+  padding-right: 9%;
+}
+.bigcells input {
+  width:100%;
+  height: 170px;
+  padding-top: 0px;
+}
+
+.longcells {
+  padding-left: 7.5%;
+  padding-right: 9%;
+
+}
+
+.longcells input {
+  width:100%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.submitbutton {
+	padding-left: 45%;
+}
+
+input[type=submit] {
+
+  border: 1.6px solid #FF8345;
+    width: 244px;
+    height: 75px;
+    border-radius: 50%;
+    color: #FF8345;
+    font-family: "Editorial New";
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-align: center;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input[type="submit"]:hover {
+	color:#ffffff;
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #15402A;
+  -webkit-text-stroke-color: #FF8345;
+
 }
 
-.newslettertext:hover {
-  color: #15402A;
-  
+td[rowspan] {
+  vertical-align: top;
+  text-align: left;
 }
-
-
-
-
 
 
 

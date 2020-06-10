@@ -55,6 +55,7 @@ td {
   left:0%;
   top: 0%;
   width: 100%;
+  max-width: 100%;
 }
 
 
@@ -87,7 +88,7 @@ td {
 .subtitles {
   color: #252525;
   font-family: "Founders Grotesk";
-  font-size: 40px;
+  font-size: 4vw;
   letter-spacing: 0;
   line-height: 48px;
   width: 70%;
@@ -159,6 +160,7 @@ td {
 .longcells {
   padding-left: 7.5%;
   padding-right: 9%;
+
 }
 
 .longcells input {
@@ -200,4 +202,6 @@ td[rowspan] {
   vertical-align: top;
   text-align: left;
 }
+
+
 
